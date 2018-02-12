@@ -13,5 +13,11 @@ namespace Ajf.MvcTestClient.Mvc.Controllers
         {
             return View();
         }
+
+        [Authorize(Roles ="Protected")]
+        public ActionResult Protected()
+        {
+            return View();
+        }
     }
 }
