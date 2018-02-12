@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ajf.MvcTestClient.Mvc\Ajf.MvcTestClient.Mvc.csproj">
+      <Project>{e1b8c8bc-d935-4a67-9699-eb2f47facd85}</Project>
+      <Name>Ajf.MvcTestClient.Mvc</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
